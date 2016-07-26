@@ -22,7 +22,7 @@ namespace AlcoStoper
         int count = 0;
         int limit = 0;
         private ISharedPreferences prefs;
-        string path = "/storage/emulated/0/Android/data/" + "alcohole.db";
+        string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments) + "/alcohole.db";
         private ListView mListView;
         private BaseAdapter<Alcohole> mAdapter;
         private List<Alcohole> mAlcohole;

@@ -20,7 +20,7 @@ namespace AlcoStoper
     [Activity(Label = "AddNewAlcohole")]
     public class AddNewAlcohole : Activity
     {
-        string path = "/storage/emulated/0/Android/data/" + "alcohole.db";
+        string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments) + "/alcohole.db";
         int percent;
         EditText nameAlco;
         TextView persentText;
@@ -179,7 +179,7 @@ namespace AlcoStoper
                     return imageBytes;
                 }
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
                 Toast.MakeText(this, "Error", ToastLength.Short).Show();
                 StartActivity(typeof(MainActivity));

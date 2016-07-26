@@ -12,14 +12,14 @@ using System.IO;
 
 namespace AlcoStoper
 {
-    [Activity(Label = "AlcoControl", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "AlcoControl", MainLauncher = true, Icon = "@drawable/xs")]
     public class MainActivity : Activity
     {
         private ListView mListView;
         private BaseAdapter<Contact> mAdapter;
         private List<Contact> mContacts;
         string pathFile;
-        string path = "/storage/emulated/0/Android/data/" + "sql.db";
+        string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments) + "/sql.db";
         byte[] image;
         ImageView pic;
 
@@ -154,7 +154,7 @@ namespace AlcoStoper
                     return imageBytes;
                 }
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
                 Toast.MakeText(this, "Error", ToastLength.Short).Show();
                 StartActivity(typeof(MainActivity));

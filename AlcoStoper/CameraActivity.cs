@@ -305,7 +305,7 @@ namespace AlcoStoper
                     // We are opening the camera with a listener. When it is ready, OnOpened of mStateListener is called.
                     manager.OpenCamera(cameraId, mStateListener, null);
                 }
-                catch (CameraAccessException ex)
+                catch (CameraAccessException)
                 {
                     Toast.MakeText(activity, "Cannot access the camera.", ToastLength.Short).Show();
                     Activity.Finish();
@@ -510,7 +510,7 @@ namespace AlcoStoper
                             {
                                 session.Capture(captureBuilder.Build(), captureListener, backgroundHandler);
                             }
-                            catch (IllegalStateException ex)
+                            catch (IllegalStateException)
                             {
                                 Intent intent = new Intent(this.Activity, typeof(MainActivity));
                                 Toast.MakeText(this.Activity, "Error", ToastLength.Long).Show();

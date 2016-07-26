@@ -8,7 +8,6 @@ C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Re
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Release\SQLitePCLPlugin_esqlite3.dll
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Release\SQLite-net.xml
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Release\SQLite-net.dll.mdb
-C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\AlcoStoper.csprojResolveAssemblyReference.cache
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\AlcoStoper.dll
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\AlcoStoper.pdb
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\bin\AlcoStoper.AlcoStoper.apk
@@ -80,6 +79,7 @@ C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Re
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\R.cs.flag
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\uploadflags.txt
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Release\AlcoStoper.dll.mdb
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\AlcoStoper.csprojResolveAssemblyReference.cache
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Release\Java.Interop.dll.mdb
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Release\Mono.Android.dll.mdb
 C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\bin\Release\mscorlib.dll.mdb
