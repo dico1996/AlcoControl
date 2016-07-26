@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="AlcoStoper.AlcoStoper" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="AlcoStoper" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="AddNewAlcohole" android:name="md5bc48b90eb6f2f14ab5d5f7d893d447bd.AddNewAlcohole" />
+    <activity android:label="AlcoControl" android:name="md5bc48b90eb6f2f14ab5d5f7d893d447bd.AlcoControl" />
+    <activity android:label="AlcoLevel" android:name="md5bc48b90eb6f2f14ab5d5f7d893d447bd.AlcoLevel" />
+    <activity android:label="CameraActivity" android:name="md5bc48b90eb6f2f14ab5d5f7d893d447bd.CameraActivity" />
+    <activity android:icon="@drawable/icon" android:label="AlcoControl" android:name="md5bc48b90eb6f2f14ab5d5f7d893d447bd.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="AlcoStoper.AlcoStoper.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.AlcoStoper.AlcoStoper" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

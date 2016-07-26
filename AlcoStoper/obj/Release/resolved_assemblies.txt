@@ -1,0 +1,13 @@
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\AlcoStoper.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\Java.Interop.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\Mono.Android.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\mscorlib.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\System.Core.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\System.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\System.Xml.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\SQLite-net.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\SQLitePCL.batteries.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\SQLitePCL.raw.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\SQLitePCLPlugin_esqlite3.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\Dico\Documents\Visual Studio 2015\Projects\AlcoStoper\AlcoStoper\obj\Release\android\assets\System.ServiceModel.Internals.dll

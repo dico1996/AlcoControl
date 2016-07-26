@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="horizontal"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent">
+  <LinearLayout
+      p1:orientation="vertical"
+      p1:layout_width="match_parent"
+      p1:layout_weight="1"
+      p1:layout_height="match_parent">
+    <ImageView
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_weight="1"
+        p1:src="@drawable/sad"
+        p1:id="@+id/sad"
+        p1:layout_marginTop="139.5dp" />
+    <TextView
+        p1:text="Relax"
+        p1:gravity="center"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/tvSad" />
+    <ImageView
+        p1:src="@drawable/happy"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_weight="1"
+        p1:id="@+id/happy" />
+    <TextView
+        p1:text="Drink a lot"
+        p1:gravity="center"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/tvHappy"
+        p1:layout_marginBottom="139.5dp" />
+  </LinearLayout>
+  <LinearLayout
+      p1:orientation="vertical"
+      p1:layout_width="match_parent"
+      p1:layout_height="match_parent"
+      p1:layout_weight="1">
+    <ImageView
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_weight="1"
+        p1:src="@drawable/happy1"
+        p1:id="@+id/happy1"
+        p1:layout_marginTop="139.5dp" />
+    <TextView
+        p1:text="A drink"
+        p1:gravity="center"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/tvHappy1" />
+    <ImageView
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_weight="1"
+        p1:src="@drawable/shouting"
+        p1:id="@+id/shouting" />
+    <TextView
+        p1:text="Get drunk"
+        p1:gravity="center"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/tvShouting"
+        p1:layout_marginBottom="139.5dp" />
+  </LinearLayout>
+</LinearLayout>
